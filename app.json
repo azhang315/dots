@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "csafe_mobile",
-    "slug": "csafe_mobile",
+    "name": "dots",
+    "owner": "azhang315",
+    "slug": "dots",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,13 +20,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAVzuZN4A4wLvzClsfLhJb4BaZyaaPQeTU"
+      },
+      "bundleIdentifier": "com.azhang315.dots"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAVzuZN4A4wLvzClsfLhJb4BaZyaaPQeTU"
+        }
+      },
+      "package": "com.azhang315.dots"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
